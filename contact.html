@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Navkar Tex Fab</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style2.css">
+
+    <script src="/style.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/photos/Navkar.png" alt="Navkar Tex Fab Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../i.html#home">Home</a></li>
+                    <li><a href="learnmore.html">About Us</a></li>
+                    <li><a href="/veiw more.html">Products</a></li>
+                    <li><a href="/dealership.html">Dealerships</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <div class="map-container">
+        <div id="map" style="width: 800px; height: 600px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14423.260752537604!2d74.6295522!3d25.3439819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c3ecd6e72a03%3A0xbd0590276d48204f!2sNAVKAR%20TEX%20FAB!5e0!3m2!1sen!2sin!4v1724432989742!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+    
+    <p class="inquiry-header">For inquiries, please reach out to us:</p>
+    <p class="inquiry-header">Phone: +91 98250 12345</p>
+    <div class="contact-form-container">
+        <div class="contact-photo-container">
+          <img src="/photos/istockphoto-174950853-612x612.jpg" alt="Contact Photo">
+        </div>
+        <form id="contact-form" action="submit_contact.php" method="POST">
+        
+    
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" name="mobile" maxlength="10" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"><br><br>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+    
+        <button type="submit">Send</button>
+    </form>
+    </div>
+    
+</div>
+</section>
+<footer>
+<div class="footer-container">
+  <div class="footer-col">
+    <h3>About Us</h3>
+    <ul>
+      <li><a href="readmore.html">Our Story</a></li>
+      <li><a href="dealership.html">Our Team</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="i.html">Home</a></li>
+      <li><a href="learnmore.html">About Us</a></li>
+      <li><a href="dealership.html">Investor Disclosure</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h3>Stay Connected</h3>
+    <div class="social-media">
+      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+  </div>
+  <div class="footer-col">
+    <h3>Copyright</h3>
+    <p>&copy; Navkar Tex Fab. All Rights Reserved.</p>
+  </div>
+  <div class="footer-col">
+    <h3>Newsletter</h3>
+    <form>
+        <label for="newsletter">Subscribe to our newsletter:</label>
+        <input type="email" id="newsletter" name="newsletter">
+        <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</div>
+</footer>
+
+</body>
+
+</html>
